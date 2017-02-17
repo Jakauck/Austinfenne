@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="street_label" min="-2" max="-2" attributes="0"/>
+                  <Component id="payRate_label" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                      <Component id="employeeID_label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                      <Component id="EMPLOYEE_ID_textField" min="-2" pref="55" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="firstName_label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="FIRST_NAME_textField" min="-2" pref="350" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+                      <Component id="lastName_label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                      <Component id="LAST_NAME_textField" min="-2" pref="350" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="258" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="PAY_RATE_textField" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="STREET_textField" min="-2" pref="350" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                              <Component id="city_label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                              <Component id="CITY_textField" min="-2" pref="350" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="ssn_label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="SSN_textField" min="-2" pref="350" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="306" max="-2" attributes="0"/>
+                      <Component id="hireDate_label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
+                                      <Component id="zipCode_label" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                                      <Component id="ZIP_CODE_textField" min="-2" pref="169" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="STATE_comboBox" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="172" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="HIRE_DATE_textField" min="-2" pref="350" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
+                                      <Component id="POSITION_comboBox" min="-2" pref="350" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="245" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="TELEPHONE_NUMBER_textField" min="-2" pref="350" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="dob_label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="DOB_textField" min="-2" pref="183" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="313" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="250" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="emergencyContact_label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="EMERGENCY_CONTACT_textField" min="-2" pref="350" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                      <Component id="emergencyContactNumber_label" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="telephoneNumber_label" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+              <Component id="EMERGENCY_CONTACT_NUMBER_textField" min="-2" pref="350" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="street_label" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="STREET_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="city_label" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="CITY_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="zipCode_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ZIP_CODE_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="STATE_comboBox" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="hireDate_label" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="SSN_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="ssn_label" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="HIRE_DATE_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="POSITION_comboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="firstName_label" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="FIRST_NAME_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="lastName_label" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="LAST_NAME_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="EMPLOYEE_ID_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="employeeID_label" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="payRate_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PAY_RATE_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="telephoneNumber_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TELEPHONE_NUMBER_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dob_label" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="DOB_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="emergencyContact_label" alignment="3" min="-2" pref="52" max="-2" attributes="0"/>
+                  <Component id="emergencyContactNumber_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="EMERGENCY_CONTACT_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="EMERGENCY_CONTACT_NUMBER_textField" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="95" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton1" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="jButton2" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="jButton3" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="firstName_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="street_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Street"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="telephoneNumber_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telephone #"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dob_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DOB"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ssn_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SSN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hireDate_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hire date"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="payRate_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pay rate"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="emergencyContact_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Emergency contact"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="emergencyContactNumber_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Emergency contact #"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FIRST_NAME_textField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FIRST_NAME_textFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="LAST_NAME_textField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="STREET_textField">
+      <Properties>
+        <Property name="columns" type="int" value="12"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="EMERGENCY_CONTACT_NUMBER_textField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="SSN_textField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SSN_textFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="HIRE_DATE_textField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="PAY_RATE_textField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="EMERGENCY_CONTACT_textField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EMERGENCY_CONTACT_textFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TELEPHONE_NUMBER_textField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TELEPHONE_NUMBER_textFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Submit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="15" rowCount="0">
+                <Column editable="true" title="Employee ID" type="java.lang.Object"/>
+                <Column editable="true" title="First Name" type="java.lang.Object"/>
+                <Column editable="true" title="Last Name" type="java.lang.Object"/>
+                <Column editable="true" title="Street" type="java.lang.Object"/>
+                <Column editable="true" title="City" type="java.lang.Object"/>
+                <Column editable="true" title="Zip Code" type="java.lang.Object"/>
+                <Column editable="true" title="State" type="java.lang.Object"/>
+                <Column editable="true" title="SSN" type="java.lang.Object"/>
+                <Column editable="true" title="Hire Date" type="java.lang.Object"/>
+                <Column editable="true" title="Position" type="java.lang.Object"/>
+                <Column editable="true" title="Pay rate" type="java.lang.Object"/>
+                <Column editable="true" title="Telephone number" type="java.lang.Object"/>
+                <Column editable="true" title="DOB" type="java.lang.Object"/>
+                <Column editable="true" title="Emergency contact" type="java.lang.Object"/>
+                <Column editable="true" title="Emergency contact#" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="POSITION_comboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="Select a position"/>
+            <StringItem index="1" value="Receptionist"/>
+            <StringItem index="2" value="Salesperson"/>
+            <StringItem index="3" value="Internet Sales Person"/>
+            <StringItem index="4" value="Manager"/>
+            <StringItem index="5" value="Assistant Manager"/>
+            <StringItem index="6" value="Human Resources"/>
+            <StringItem index="7" value="Janitor"/>
+            <StringItem index="8" value="Detailer"/>
+            <StringItem index="9" value="Technician"/>
+            <StringItem index="10" value="Administration"/>
+            <StringItem index="11" value="Accountant"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="POSITION_comboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lastName_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="city_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="City"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CITY_textField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CITY_textFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="zipCode_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zip code"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="STATE_comboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="51">
+            <StringItem index="0" value="State"/>
+            <StringItem index="1" value="AL"/>
+            <StringItem index="2" value="AK"/>
+            <StringItem index="3" value="AZ"/>
+            <StringItem index="4" value="AR"/>
+            <StringItem index="5" value="CA"/>
+            <StringItem index="6" value="CO"/>
+            <StringItem index="7" value="CT"/>
+            <StringItem index="8" value="DE"/>
+            <StringItem index="9" value="FL"/>
+            <StringItem index="10" value="GA"/>
+            <StringItem index="11" value="HI"/>
+            <StringItem index="12" value="ID"/>
+            <StringItem index="13" value="IL"/>
+            <StringItem index="14" value="IN"/>
+            <StringItem index="15" value="IA"/>
+            <StringItem index="16" value="KS"/>
+            <StringItem index="17" value="KY"/>
+            <StringItem index="18" value="LA"/>
+            <StringItem index="19" value="ME"/>
+            <StringItem index="20" value="MD"/>
+            <StringItem index="21" value="MA"/>
+            <StringItem index="22" value="MI"/>
+            <StringItem index="23" value="MN"/>
+            <StringItem index="24" value="MS"/>
+            <StringItem index="25" value="MO"/>
+            <StringItem index="26" value="MT"/>
+            <StringItem index="27" value="NE"/>
+            <StringItem index="28" value="NV"/>
+            <StringItem index="29" value="NH"/>
+            <StringItem index="30" value="NJ"/>
+            <StringItem index="31" value="NM"/>
+            <StringItem index="32" value="NY"/>
+            <StringItem index="33" value="NC"/>
+            <StringItem index="34" value="ND"/>
+            <StringItem index="35" value="OH"/>
+            <StringItem index="36" value="OK"/>
+            <StringItem index="37" value="OR"/>
+            <StringItem index="38" value="PA"/>
+            <StringItem index="39" value="RI"/>
+            <StringItem index="40" value="SC"/>
+            <StringItem index="41" value="SD"/>
+            <StringItem index="42" value="TN"/>
+            <StringItem index="43" value="TX"/>
+            <StringItem index="44" value="UT"/>
+            <StringItem index="45" value="VT"/>
+            <StringItem index="46" value="VA"/>
+            <StringItem index="47" value="WA"/>
+            <StringItem index="48" value="WV"/>
+            <StringItem index="49" value="WI"/>
+            <StringItem index="50" value="WY"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ZIP_CODE_textField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ZIP_CODE_textFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="DOB_textField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="EMPLOYEE_ID_textField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EMPLOYEE_ID_textFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="employeeID_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Employee ID"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
